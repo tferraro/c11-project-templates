@@ -1,2 +1,2 @@
-# c17-project-templates
-Project Templates for C Developing (standard 2017) 
+# c11-project-templates
+Project Templates for C Developing (standard 2011) 
