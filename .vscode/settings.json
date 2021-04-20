@@ -12,6 +12,7 @@
         "**/CTestTestfile.cmake": true,
         "**/_deps": true,
         "**/*.a": true,
-        "**/*.so": true
+        "**/*.so": true,
+        "build/": true
     }
 }

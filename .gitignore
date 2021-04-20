@@ -12,3 +12,4 @@ _deps
 **/bin/
 *.a
 *.so
+build
