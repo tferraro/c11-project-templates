@@ -1,6 +1,6 @@
 #ifndef LIBEXAMPLE_H_
 #define LIBEXAMPLE_H_
 
-int round();
+int just_some_zero();
 
 #endif /* LIBEXAMPLE_H_ */

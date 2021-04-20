@@ -6,7 +6,7 @@
 
 void *thread(void *params) {
     printf("Thread - %ld\n", pthread_self());
-    sleep(60);
+    sleep(1);
     printf("Finish Thread - %ld\n", pthread_self());
 }
 
