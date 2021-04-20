@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include "../libs/libexample/example.h"
 
 void *thread(void *params) {
     printf("Thread - %ld\n", pthread_self());
@@ -19,5 +20,5 @@ int main(int argc, char **argv) {
     // wait for threads to finish
     pthread_join(thread1, NULL);
     pthread_join(thread2, NULL);
-    return 0;
+    return just_some_zero();
 }
