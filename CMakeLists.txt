@@ -10,10 +10,6 @@ enable_testing()
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED True)
 
-set(CMAKE_BINARY_DIR "./bin")
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
-
 add_subdirectory(main)
 add_subdirectory(libs)
 add_subdirectory(tests)
-
